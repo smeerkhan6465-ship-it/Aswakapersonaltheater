@@ -1,11 +1,51 @@
-<div align="center">
+# Aswa Ka Personal Theatre
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+> Your personal corner of cinema. Made for Aswa.
 
-  <h1>Built with AI Studio</h2>
+A minimal, luxury personal cinema web application built with React 19, TypeScript, Vite, Tailwind CSS v4, and the HTML5 Media API with VLC-inspired playback controls.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+---
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Features
 
-</div>
+- **Ultra-Minimal Interface**: Clean, distraction-free cinema experience.
+- **Dynamic URL Streaming**: Paste any direct video link (MP4, WebM, compatible direct stream endpoints) and play instantly.
+- **VLC-Inspired Keyboard Shortcuts**:
+  - <kbd>Space</kbd>: Play / Pause
+  - <kbd>←</kbd> / <kbd>→</kbd>: Rewind / Fast-forward 5 seconds
+  - <kbd>↑</kbd> / <kbd>↓</kbd>: Increase / Decrease volume
+  - <kbd>M</kbd>: Mute / Unmute
+  - <kbd>F</kbd>: Fullscreen
+  - <kbd>P</kbd>: Picture-in-Picture
+  - <kbd>Esc</kbd>: Exit Fullscreen
+- **Speed Selector**: 0.25x to 2x playback speeds.
+- **Real-Time Buffer Visualization**: Reads actual `HTMLVideoElement.buffered` chunks to show precise progressive buffer segments.
+- **Friendly Error Handling**: Clear, plain-language error reporting with quick retry or link replacement.
+
+---
+
+## Color Palette
+
+- Main Background: `#090909`
+- Player Background: `#000000`
+- Input Background: `#151515`
+- Primary Text: `#FFFFFF`
+- Secondary Text: `#999999`
+- Border: `#292929`
+
+---
+
+## Vercel Deployment
+
+1. **Deploy via Vercel CLI**:
+   ```bash
+   npm install -g vercel
+   vercel
+   ```
+2. **Deploy via GitHub**:
+   - Push this repository to GitHub.
+   - Import the repository in [Vercel](https://vercel.com/new).
+   - Framework preset: **Vite**.
+   - Build Command: `npm run build`.
+   - Output Directory: `dist`.
+   - Click **Deploy**.

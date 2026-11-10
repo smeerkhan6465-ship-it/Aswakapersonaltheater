@@ -1,0 +1,6 @@
+{
+  "name": "MinimalStream",
+  "description": "Minimal, modern, cinematic single-video streaming platform with advanced VLC-style controls and source diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
